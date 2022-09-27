@@ -39,10 +39,12 @@ function average(num1,num2){
 }
 function average2(num1,num2){
     let sum = sumnums(num1,num2)
-    letavg=sum/2
+    let avg=sum/2
     return avg;
 }
 function sumnums(num1,num2){
     return num1 + num2
 }
 console.log(average(10, 6))
+console.log(average2(44,6))
+console.log(sumnums(3,5))
