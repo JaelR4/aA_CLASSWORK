@@ -30,4 +30,19 @@ let foo1 = function(){
 }
 console.log(foo1())
 
-
+function average(num1,num2){
+    console.log(num1)
+    console.log(num2)
+    let sum = num1+num2;
+    let avg = sum/2;
+    return avg
+}
+function average2(num1,num2){
+    let sum = sumnums(num1,num2)
+    letavg=sum/2
+    return avg;
+}
+function sumnums(num1,num2){
+    return num1 + num2
+}
+console.log(average(10, 6))
