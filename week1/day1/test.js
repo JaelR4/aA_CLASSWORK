@@ -57,14 +57,20 @@ if (20 === 2) {
 } else {
     console.log("not equal")
 }
-let num = 20
+
+
+let num = 21
 if(num===20){
     console.log("equals 20")
 }else if (num > 20){
-    console.log(greater)
+    console.log('greater')
+} else if (num > 19){
+    console.log('greater than 19')
 }else{
     console.log("less than")
 }
+
+
 if (0){
     console.log(false)
 }else{
