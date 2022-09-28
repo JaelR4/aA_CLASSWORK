@@ -48,3 +48,44 @@ function sumnums(num1,num2){
 console.log(average(10, 6))
 console.log(average2(44,6))
 console.log(sumnums(3,5))
+
+function isOdd(num) 
+{
+    console.log(true)
+    if (num % 2===1) {
+        return true
+    } else {
+       return false
+        console.log(false)
+    }
+}
+
+
+console.log(isOdd(10))
+console.log(isOdd(2))
+console.log(isOdd(3))
+console.log(isOdd(5))
+console.log(isOdd(7))
+console.log(isOdd(56))
+
+function plusFive (num) {
+    return (5+num)
+}
+    console.log(plusFive(10))
+    console.log(plusFive(20))
+    console.log(plusFive(15))
+    console.log(plusFive(30))
+
+function threeOrSeven(num) {
+    if (num % 3 === 0 || num % 7 === 0) {
+        return true
+    } else {
+        return false
+    }
+}
+console.log (threeOrSeven(60))
+
+function hello(str) {
+str=hello
+}
+console.log(str)
