@@ -21,11 +21,38 @@ function printRange(start,end){
 }
 // printRange(3,10);
 
-function printRange1(start,end) {
-    let i = start;
-    while (i<=end){
-        console.log (i);
-        i++
+// function printRange1(start,end) {
+//     let i = start;
+//     while (i<=end){
+//         console.log (i);
+//         i++
+//     }
+// }
+// printRange1(7,21)
+
+// let i=20;
+// while (false){
+//     console.log(i)
+// }
+
+// function skipFive(num){
+//     for(let i = 1; i <= num; i++) {
+//         if (i === 5) {
+//             continue
+//         }
+//         console.log(i);
+//     }
+// }
+
+// skipFive(20);
+
+function breakAtFive (num){
+    for (let i=1; i<=num; i++) {
+        if (i===5) {
+            break;
+        }
+   console.log(i);
     }
+    console.log("after the loop")
 }
-printRange1(7,21)
+breakAtFive(20)
