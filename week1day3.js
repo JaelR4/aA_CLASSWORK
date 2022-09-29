@@ -46,13 +46,23 @@ function printRange(start,end){
 
 // skipFive(20);
 
-function breakAtFive (num){
-    for (let i=1; i<=num; i++) {
-        if (i===5) {
-            break;
-        }
-   console.log(i);
+// function breakAtFive (num){
+//     for (let i=1; i<=num; i++) {
+//         if (i===5) {
+//             break;
+//         }
+//    console.log(i);
+//     }
+//     console.log("after the loop")
+// }
+// breakAtFive(20)
+
+function isPrime(num) {
+    if (num === 3 || num === 1) {
+    return true
+    } else {
+        return false
     }
-    console.log("after the loop")
 }
-breakAtFive(20)
+
+console.log(isPrime(5))
