@@ -76,4 +76,3 @@ function isSubstring(searchstring, substring){
         return false
     }
 }
-console.log (isSubstring(something))

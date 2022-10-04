@@ -57,12 +57,20 @@ function printRange(start,end){
 // }
 // breakAtFive(20)
 
-function isPrime(num) {
-    if (num === 3 || num === 1) {
-    return true
-    } else {
-        return false
-    }
-}
 
-console.log(isPrime(5))
+
+// function isPrime(num) {
+//     if (num === 3 || num === 1) {
+//     return true
+//     } else {
+//         return false
+//     }
+// }
+
+// console.log(isPrime(5))
+
+function isPrime(num){
+    if (num<2) return false;
+
+}
+function logBetween(lownNum, highNum)

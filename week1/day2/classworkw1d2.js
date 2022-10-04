@@ -86,6 +86,3 @@ function threeOrSeven(num) {
 console.log (threeOrSeven(60))
 
 function hello(str) {
-str=hello
-}
-console.log(str)

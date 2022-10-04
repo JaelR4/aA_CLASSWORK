@@ -46,4 +46,4 @@ for (let i=0; i<numbers.length; i++) {
 //     let ele= numbers [i]
 //     console.log(ele)
 
-// }
+// 
